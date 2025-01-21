@@ -33,19 +33,30 @@ Column 23: Activity Label (0 for null class, 1-12 for specific activities)
 
 ============================================================================
 Column 0: acceleration from the left-ankle sensor (X axis)
-Column 1: acceleration from the left-ankle sensor (Y axis)
-Column 2: acceleration from the left-ankle sensor (Z axis)
-Column 3: gyro from the left-ankle sensor (X axis)
-Column 4: gyro from the left-ankle sensor (Y axis)
-Column 5: gyro from the left-ankle sensor (Z axis)
-Column 6: acceleration from the right-lower-arm sensor (X axis)
-Column 7: acceleration from the right-lower-arm sensor (Y axis)
-Column 8: acceleration from the right-lower-arm sensor (Z axis)
-Column 9: gyro from the right-lower-arm sensor (X axis)
-Column 10: gyro from the right-lower-arm sensor (Y axis)
-Column 11: gyro from the right-lower-arm sensor (Z axis)
-Column 12: Label (0 for the null class)
 
+Column 1: acceleration from the left-ankle sensor (Y axis)
+
+Column 2: acceleration from the left-ankle sensor (Z axis)
+
+Column 3: gyro from the left-ankle sensor (X axis)
+
+Column 4: gyro from the left-ankle sensor (Y axis)
+
+Column 5: gyro from the left-ankle sensor (Z axis)
+
+Column 6: acceleration from the right-lower-arm sensor (X axis)
+
+Column 7: acceleration from the right-lower-arm sensor (Y axis)
+
+Column 8: acceleration from the right-lower-arm sensor (Z axis)
+
+Column 9: gyro from the right-lower-arm sensor (X axis)
+
+Column 10: gyro from the right-lower-arm sensor (Y axis)
+
+Column 11: gyro from the right-lower-arm sensor (Z axis)
+
+Column 12: Label (0 for the null class)
 
 
 #### Physical Activities:
