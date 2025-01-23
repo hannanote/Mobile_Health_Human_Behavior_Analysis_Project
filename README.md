@@ -13,25 +13,6 @@ The MHEALTH dataset consists of 12 signals representing acceleration, gyroscope,
 
 #### Columns in the Dataset:
 
-Columns 0-2: Acceleration from the chest sensor (X, Y, Z axes)
-
-Columns 3-4: Electrocardiogram (ECG) signals (Lead 1, Lead 2)
-
-Columns 5-7: Acceleration from the left ankle sensor (X, Y, Z axes)
-
-Columns 8-10: Gyroscope from the left ankle sensor (X, Y, Z axes)
-
-Columns 11-13: Magnetometer from the left ankle sensor (X, Y, Z axes)
-
-Columns 14-16: Acceleration from the right lower arm sensor (X, Y, Z axes)
-
-Columns 17-19: Gyroscope from the right lower arm sensor (X, Y, Z axes)
-
-Columns 20-22: Magnetometer from the right lower arm sensor (X, Y, Z axes)
-
-Column 23: Activity Label (0 for null class, 1-12 for specific activities)
-
-============================================================================
 Column 0: acceleration from the left-ankle sensor (X axis)
 
 Column 1: acceleration from the left-ankle sensor (Y axis)
@@ -106,7 +87,7 @@ Classification Algorithms: Use various machine learning models such as:
 + Random Forest
 + Support Vector Machine (SVM)
 + K-Nearest Neighbors (KNN)
-+ Neural Networks (e.g., Feed-forward or LSTM for time-series data)
++ Neural Networks
 + Hyperparameter Tuning: Use grid search or randomized search for hyperparameter optimization.
 + Cross-validation: Perform cross-validation to evaluate model performance on unseen data.
 
