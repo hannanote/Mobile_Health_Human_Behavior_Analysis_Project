@@ -69,7 +69,7 @@ Normalization: Normalize or standardize the sensor data to ensure the model's co
 
 Feature Selection: Identify which features (e.g., acceleration, gyroscope, magnetometer, ECG) are most relevant for classification.
 
-Splitting Data: Split the dataset into training and testing sets (e.g., 80% training, 20% testing).
+Splitting Data: Split the dataset into training and testing sets (80% train data, 20% test data).
 
 
 #### Step 2: Exploratory Data Analysis (EDA)
