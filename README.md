@@ -99,4 +99,4 @@ Classification Algorithms: Use various machine learning models such as:
 #### Step 5: Model Deployment 
 
 + Real-Time Prediction: Implement a real-time prediction system for mobile health tracking.
-+ User Interface: (Optional) Build a simple interface to interact with the model (e.g., using Flask or Streamlit).
++ User Interface: Build a simple interface to interact with the model (e.g., using Flask or Streamlit).
