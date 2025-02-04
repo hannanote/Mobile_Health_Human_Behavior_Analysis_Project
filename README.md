@@ -1,6 +1,6 @@
 ## Mobile_Health_Human_Behavior_Analysis
 
-### Project Overview:
+### Project Overview
 
 The goal of this project is to analyze body motion and vital signs collected from wearable sensors on a group of ten volunteers to classify various physical activities. The MHEALTH dataset is used, which includes sensor data (acceleration, gyroscope, magnetometer, and ECG signals) for different body parts (chest, left ankle, right lower arm) while performing 12 distinct physical activities.
 
