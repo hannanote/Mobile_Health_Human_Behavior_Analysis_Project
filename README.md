@@ -7,7 +7,7 @@ The goal of this project is to analyze body motion and vital signs collected fro
 We will use machine learning algorithms to classify these activities and understand how various physiological and motion data correlate with human behavior. This project will demonstrate how wearable technology can be used to monitor and predict physical activity patterns, which can be crucial for health tracking, fitness, and medical applications.
 <br>
 
-### Dataset Description:
+### Dataset Description
 
 The MHEALTH dataset consists of 12 signals representing acceleration, gyroscope, and magnetometer data from sensors placed on different parts of the body (chest, left ankle, right lower arm). These signals are captured in three axes: X, Y, and Z.
 
