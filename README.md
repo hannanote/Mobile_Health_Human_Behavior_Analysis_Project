@@ -9,7 +9,12 @@ Human behavior is complex and multifaceted, and predicting it is difficult. Howe
 
 ### Dataset Description
 
-The MHEALTH dataset consists of 12 signals representing acceleration, gyroscope, and magnetometer data from sensors placed on different parts of the body (chest, left ankle, right lower arm). These signals are captured in three axes: X, Y, and Z.
+The dataset used in this project is the **MHEALTH (Mobile Health) dataset**, which includes data from ten volunteers performing 12 distinct physical activities. The data includes accelerometer and gyroscope readings captured by sensors placed on the volunteers' chest, right wrist, and left ankle, which measure acceleration, angular velocity, and magnetic field orientation.
+
+This dataset is provided by the UCI Machine Learning Repository:
+
+[**MHEALTH Dataset**](https://archive.ics.uci.edu/dataset/319/mhealth+dataset)
+
 
 #### Columns in the Dataset:
 
