@@ -113,6 +113,9 @@ For the test dataset, the **K-Nearest Neighbors (KNN)** model was chosen, and th
 
 These results demonstrate that the KNN model performed exceptionally well, maintaining high accuracy and a balanced approach to precision and recall.
 
+![Image](https://github.com/user-attachments/assets/144281bc-e049-421a-929a-c0ac1d97e3d7)
+
+
 ### **Cross-Validation Results**
 
 In order to validate the performance of the KNN model further, **cross-validation** was performed using the **cross_val_score** function. The accuracy obtained from cross-validation was 97.2%, confirming that the model generalizes well to unseen data.
@@ -120,6 +123,8 @@ In order to validate the performance of the KNN model further, **cross-validatio
 ### **AUC Scores and Class Imbalance**
 
 In addition to the performance metrics, the **Area Under the Curve (AUC)** values were also computed for each class to evaluate the model's ability to discriminate between different activity classes. The AUC values for each class are as follows:
+
+![Image](https://github.com/user-attachments/assets/6cfc1e00-6444-44f0-85e5-d58af6b7e106)
 
 |  | AUC | 0.999 |
 | --- | --- | --- |
