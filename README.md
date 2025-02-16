@@ -112,3 +112,31 @@ For the test dataset, the **K-Nearest Neighbors (KNN)** model was chosen, and th
 - **F1-Score**: 98.0%
 
 These results demonstrate that the KNN model performed exceptionally well, maintaining high accuracy and a balanced approach to precision and recall.
+
+### **Cross-Validation Results**
+
+In order to validate the performance of the KNN model further, **cross-validation** was performed using the **cross_val_score** function. The accuracy obtained from cross-validation was 97.2%, confirming that the model generalizes well to unseen data.
+
+### **AUC Scores and Class Imbalance**
+
+In addition to the performance metrics, the **Area Under the Curve (AUC)** values were also computed for each class to evaluate the model's ability to discriminate between different activity classes. The AUC values for each class are as follows:
+
+|  | AUC | 0.999 |
+| --- | --- | --- |
+| Class 2 | AUC | 1.000 |
+| Class 3 | AUC |  1.000 |
+| Class 4 | AUC | 0.991 |
+| Class 5 | AUC | 0.984 |
+| Class 6 | AUC | 0.990 |
+| Class 7 | AUC | 0.997 |
+| Class 8 | AUC | 0.981 |
+| Class 9 | AUC | 1.000 |
+| Class 10 | AUC | 0.995 |
+| Class 11 | AUC | 0.997 |
+| Class 12 | AUC | 0.993 |
+
+### **Conclusion**
+
+The K-Nearest Neighbors (KNN) model performed exceptionally well in predicting human activity and behavior, achieving high accuracy (98.4%) and strong metrics across recall, precision, specificity, and F1-Score. The model also performed well in cross-validation with an accuracy of 97.2%. However, the high AUC values, particularly the perfect scores for some classes, may indicate class imbalance within the dataset, which could inflate the performance metrics.
+
+Despite this, the project successfully demonstrated the potential of machine learning models, especially KNN, for predicting human behavior using mobile health data. This has important implications for the development of mobile health applications that can monitor and predict user activities, potentially enhancing personalized health interventions.
