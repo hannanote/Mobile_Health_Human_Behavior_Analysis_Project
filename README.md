@@ -2,9 +2,9 @@
 
 ### Project Overview
 
-The goal of this project is to analyze body motion and vital signs collected from wearable sensors on a group of ten volunteers to classify various physical activities. The MHEALTH dataset is used, which includes sensor data (acceleration, gyroscope, magnetometer, and ECG signals) for different body parts (chest, left ankle, right lower arm) while performing 12 distinct physical activities.
+Mobile health (mHealth) is an emerging field in digital health that utilizes mobile technology to provide care and treatment to individuals. With the increasing prevalence of smart devices, human behavior, particularly in relation to health, has become more quantifiable. This presents both an opportunity and a challenge in predicting human behavior from daily activities.
 
-We will use machine learning algorithms to classify these activities and understand how various physiological and motion data correlate with human behavior. This project will demonstrate how wearable technology can be used to monitor and predict physical activity patterns, which can be crucial for health tracking, fitness, and medical applications.
+Human behavior is complex and multifaceted, and predicting it is difficult. However, with the use of sensor data from devices like accelerometers, gyroscopes, and other health monitoring technologies, it becomes possible to analyze and predict human behavior. By capturing body motion and vital signs, we can derive valuable insights that support personalized health management.
 <br>
 
 ### Dataset Description
