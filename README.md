@@ -64,44 +64,51 @@ Column 12: Label (0 for the null class)
 
 ### Project Workflow
 
-#### Step 1: Data Preprocessing
+**Project Approach**
 
-Loading Data: Import the dataset using Pandas or similar libraries.
+The key steps in the project were:
 
-Handling Missing Values: Check for any missing data and decide on imputation or removal.
+1. **Data Retrieval**: Downloading the dataset and organizing it for analysis.
+2. **Data Preparation**: Preprocessing the data.
+3. **Data Visualization**: Performing Exploratory Data Analysis (EDA) to visualize patterns and trends.
+4. **Model Training**: Training multiple machine learning models to predict human behavior based on the dataset.
+5. **Model Evaluation**: Evaluating the performance of each model based on various metrics.
+6. **Model Deployment**: Deploying the best model for live predictions.
 
-Normalization: Normalize or standardize the sensor data to ensure the model's convergence.
+**Machine Learning Models Used**
 
-Feature Selection: Identify which features (e.g., acceleration, gyroscope, magnetometer, ECG) are most relevant for classification.
+The models used in this project include:
 
-Splitting Data: Split the dataset into training and testing sets (80% train data, 20% test data).
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Support Vector Classifier (SVC)
+- Random Forest Classifier
+- Decision Tree Classifier
+- Neural Network
 
+### **Model Evaluation**
 
-#### Step 2: Exploratory Data Analysis (EDA)
+When evaluating the models on the training data, various performance metrics were used, including **Recall**, **Specificity**, **Precision**, **Balanced Accuracy**, and **F1-Score**. The table below summarizes the performance of each model on the training dataset:
 
-Visualizing the Data: Plot graphs to visualize the distribution of accelerometer, gyroscope, and ECG signals.
+| Model | Recall | Specificity | Precision | Balanced Accuracy | F1-Score |
+| --- | --- | --- | --- | --- | --- |
+| Logistic Regression | 0.581 | 0.999 | 0.609 | 0.614 | 0.571 |
+| K-Nearest Neighbors (KNN) | 0.979 | 1.000 | 0.987 | 0.986 | 0.982 |
+| Support Vector Classifier | 0.758 | 0.999 | 0.759 | 0.758 | 0.744 |
+| Random Forest Classifier | 0.902 | 0.999 | 0.905 | 0.902 | 0.901 |
+| Decision Tree Classifier | 0.848 | 1.000 | 0.851 | 0.848 | 0.846 |
+| Neural Network | 0.898 | 1.000 | 0.901 | 0.916 | 0.897 |
 
-Correlation Analysis: Check for correlations between different sensor readings and the activity labels.
+From the table, **K-Nearest Neighbors (KNN)** emerged as the top-performing model with the highest F1-Score of 0.982, followed closely by **Random Forest** and **Neural Network**, both of which showed strong performance as well.
 
-Activity Class Distribution: Analyze the balance of activity labels to identify any class imbalances.
+### **Test Data Results**
 
-#### Step 3: Model Building
+For the test dataset, the **K-Nearest Neighbors (KNN)** model was chosen, and the following results were obtained:
 
-Classification Algorithms: Use various machine learning models such as:
-+ Logistic Regression
-+ Random Forest
-+ Support Vector Machine (SVM)
-+ K-Nearest Neighbors (KNN)
-+ Neural Networks
-+ Hyperparameter Tuning: Use grid search or randomized search for hyperparameter optimization.
-+ Cross-validation: Perform cross-validation to evaluate model performance on unseen data.
+- **Accuracy**: 98.4%
+- **Specificity**: 100%
+- **Recall**: 97.6%
+- **Precision**: 98.5%
+- **F1-Score**: 98.0%
 
-#### Step 4: Model Evaluation
-
-+ Metrics: Use classification metrics like accuracy, precision, recall, F1-score, and confusion matrix.
-+ ROC-AUC: Evaluate the model using the ROC-AUC curve to understand its discriminatory power.
-
-#### Step 5: Model Deployment 
-
-+ Real-Time Prediction: Implement a real-time prediction system for mobile health tracking.
-+ User Interface: Build a simple interface to interact with the model (e.g., using Flask or Streamlit).
+These results demonstrate that the KNN model performed exceptionally well, maintaining high accuracy and a balanced approach to precision and recall.
