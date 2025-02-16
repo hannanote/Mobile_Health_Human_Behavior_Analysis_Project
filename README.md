@@ -113,7 +113,8 @@ For the test dataset, the **K-Nearest Neighbors (KNN)** model was chosen, and th
 
 These results demonstrate that the KNN model performed exceptionally well, maintaining high accuracy and a balanced approach to precision and recall.
 
-![Image](https://github.com/user-attachments/assets/144281bc-e049-421a-929a-c0ac1d97e3d7)
+<img src='https://github.com/user-attachments/assets/144281bc-e049-421a-929a-c0ac1d97e3d7' width='700px' height='400px'>
+
 
 
 ### **Cross-Validation Results**
