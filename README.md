@@ -125,7 +125,8 @@ In order to validate the performance of the KNN model further, **cross-validatio
 
 In addition to the performance metrics, the **Area Under the Curve (AUC)** values were also computed for each class to evaluate the model's ability to discriminate between different activity classes. The AUC values for each class are as follows:
 
-![Image](https://github.com/user-attachments/assets/6cfc1e00-6444-44f0-85e5-d58af6b7e106)
+<img src='https://github.com/user-attachments/assets/6cfc1e00-6444-44f0-85e5-d58af6b7e106' width='700px' height='400px'>
+
 
 |  | AUC | 0.999 |
 | --- | --- | --- |
