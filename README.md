@@ -147,3 +147,5 @@ In addition to the performance metrics, the **Area Under the Curve (AUC)** value
 The K-Nearest Neighbors (KNN) model performed exceptionally well in predicting human activity and behavior, achieving high accuracy (98.4%) and strong metrics across recall, precision, specificity, and F1-Score. The model also performed well in cross-validation with an accuracy of 97.2%. However, the high AUC values, particularly the perfect scores for some classes, may indicate class imbalance within the dataset, which could inflate the performance metrics.
 
 Despite this, the project successfully demonstrated the potential of machine learning models, especially KNN, for predicting human behavior using mobile health data. This has important implications for the development of mobile health applications that can monitor and predict user activities, potentially enhancing personalized health interventions.
+
+
